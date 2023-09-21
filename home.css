@@ -1,0 +1,429 @@
+.al {
+    display: flex;
+    align-items: center;
+    /* Vertically center the content */
+  }
+  
+  img {
+    max-width: 100%;
+    /* Make sure the image doesn't exceed its container */
+    margin-right: 10px;
+    /* Add some spacing between the image and heading */
+  }
+  
+  /* Apply basic styling to the list */
+  .horizontal-list {
+    list-style-type: none;
+    /* Remove default list bullets */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* Make the list items display horizontally */
+  }
+  
+  /* Style the list items */
+  .horizontal-list li {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-right: 10px;
+    /* Add spacing between list items */
+    border-radius: 5px;
+  }
+  
+  /* Remove the right margin from the last list item */
+  .horizontal-list li:last-child {
+    margin-right: 0;
+  }
+  
+  .items {
+    margin-right: 10%;
+    /* text-decoration: underline; */
+    display: flex;
+    justify-content: space-between;
+    background: none;
+  }
+  
+  
+  .person {
+    display: flex;
+  }
+  
+  
+  .navlink:hover {
+    color: crimson;
+    text-decoration: underline;
+    background-color: antiquewhite;
+  
+  }
+  
+  .options {
+    border-right: 2px solid rgb(227, 227, 227);
+    width: 288px;
+    margin-top: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  
+  
+  }
+  
+  .features {
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 17px;
+    margin-top: 10px;
+    font-size: 25px;
+    padding-left: 20px;
+    /* text-decoration: none; */
+  
+    border-bottom-style: dashed;
+  }
+  
+  .features a {
+    color: inherit; /* This sets the color to inherit from its parent */
+    text-decoration: none; /* Remove the underline if needed */
+  }
+  
+  
+  .features:hover {
+    background-color: #f3adc4;
+    font-size: 26px;
+    margin-left: 30px;
+    border: 2px solid black;
+  }
+  
+  .features_bottom {
+    margin-top: 145%;
+    background-color: #e65a88;
+    height: 30px;
+    padding-left: 10px;
+    border-bottom-right-radius: 10px;
+    color: #f2f2f2;
+  
+  }
+  
+  .selected {
+    background-color: antiquewhite;
+    font-size: 26px;
+    margin-left: 30px;
+    padding-left: 20px;
+    margin-top: 9px;
+    border-radius: 17px;
+    border: 2px solid black;
+  }
+  
+  .container2 {
+    display: flex;
+  }
+  
+  #carouselExampleAutoplaying {
+    height: 300px;
+    width: 80%;
+    animation: visibility;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+  
+  }
+  
+  
+  
+  
+  .inputnumber {
+    display: flex;
+  }
+  
+  .consingmentNumbr {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-top: 10%;
+  
+  }
+  
+  
+  .search {
+    transition: transform 0.3s ease;
+  }
+  
+  .search:hover {
+    transform: scale(1.2);
+  }
+  
+  
+  
+  .hidden {
+    display: none !important;
+    margin-left: 300px;
+    /* opacity: 0; */
+  }
+  
+  
+  
+  .consDetail{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 350px;
+    width: 400px;
+  }
+  
+  .detailItem {
+    background-color: #e65a88;
+    width: 215px;
+    height: 40px;
+    margin-left: 73px;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-left: 8px;
+    border-radius: 7px;
+    color: #f2f2f2;
+    font-weight: 600;
+  }
+  
+  .restOverThing {
+    margin-left: 408px;
+    border: solid;
+    border-radius: 20px;
+    height: 400px;
+    margin-left: 300px;
+  }
+  
+  .acceptButton {
+    background-color: rgb(86, 249, 65);
+    padding-left: 30px;
+    margin-right: 60px;
+    font-size: 20px;
+    border: solid;
+    /* border: 3px; */
+    padding-left: 10px;
+    height: 28px;
+    margin-left: 69px;
+    padding-right: 10px;
+    border-radius: 5px;
+  }
+  .acceptButton:hover{
+    background-color: antiquewhite ;
+  transition: 0.2s;
+  }
+  .acceptButtons{
+  
+      background-color: rgb(250, 41, 41);
+      padding-left: 30px;
+      margin-right: 250px;
+      font-size: 20px;
+      border: 1px solid black;
+      /* border: 3px; */
+      padding-left: 10px;
+      color: white;
+      height: 28px;
+      padding-right: 10px;
+      border-radius: 5px;
+  
+  }
+  .acceptButtons:hover{
+  background-color: antiquewhite ;
+  transition:0.3s;
+  color: black;
+  
+  }
+  .acdcbut{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  .acceptButtonc{
+    background-color: #e65a88;
+    padding-left: 30px;
+    margin-right: 131px;
+    font-size: 20px;
+    border: solid;
+    /* border: 3px; */
+    padding-left: 12px;
+    height: 28px;
+    margin-left: 138px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  
+  .nickname {
+      margin-bottom: -30px;
+      margin-left: 74px;
+      color: gray;
+      font-size: small;
+  }
+  
+  a{
+    color: black;
+    text-decoration: none;
+  }
+  
+  
+  /* css of cancelled articles */
+  
+  .headingcancelled{
+    margin-left: 350px;
+  }
+  
+  /* .cardsArticles{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+  }
+  
+  
+  
+  .newCardDetail{
+    font-weight: 300;
+    font-size: xx-large;
+  } */
+  
+  .newCard {
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .newCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+  }
+  
+  
+  .cardsArticles {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next row */
+    justify-content: space-between; /* Distribute cards evenly */
+    margin-left: 94px;
+    margin-right: 84px;
+  
+  }
+  
+  .newCard {
+    flex: 0 0 calc(33.33% - 40px); /* Set each card to take up 33.33% width with a 40px margin between them */
+    margin: 20px; /* Adjust margin to your liking */
+    border: 1px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 6px; /* Include padding in width calculation */
+    /* You can also add other styling as needed for your cards */
+  }
+  
+  /* Adjustments for smaller screens to make it responsive */
+  @media screen and (max-width: 992px) {
+    .newCard {
+      flex: 0 0 calc(50% - 40px); /* For screens smaller than 992px, make cards take up 50% width */
+    }
+  }
+  
+  /* Adjustments for even smaller screens, like mobile */
+  @media screen and (max-width: 576px) {
+    .cardsArticles {
+      flex-direction: column; /* Stack cards vertically on small screens */
+    }
+  
+    .newCard {
+      flex: 0 0 100%; /* Make cards take up full width on small screens */
+    }
+  }
+  
+  
+  /* bookarticle css */
+  
+  .bookArticleone{
+    display: flex;
+    flex-direction: column;
+    margin-left: 180px;
+  }
+  
+  .bookArticleContainer{
+    display:flex;
+    flex-direction: row;
+  }
+  
+  .bookarticletwo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+  }
+  
+  .proceed{
+    margin-top: 700px;
+    background-color: #FF0056;
+  margin-left: -214px;
+    color: white;
+    padding-left: 38px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 42px;
+    width: 170px;
+    border-radius: 30px;
+    height: 30px;
+    font-size: x-large;
+  }
+  .proceed:hover{
+    background-color: antiquewhite;
+    border: 1px solid black;
+    color: black;
+  }
+  
+  
+  
+  
+  
+  /* check css */
+  
+  * {
+    padding: 0;
+    margin: 0
+  }
+  
+  .wrapper {
+    height: 30px;
+    width: 60px;
+    margin-left: 450px;
+    margin-top: 250px;
+    
+  
+  }
+  
+  .animated-check {
+    height: 10em;
+    width: 10em
+  }
+  
+  .animated-check path {
+    fill: none;
+    stroke: #7ac142;
+    stroke-width: 4;
+    stroke-dasharray: 23;
+    stroke-dashoffset: 23;
+    animation: draw 1s linear forwards;
+    stroke-linecap: round;
+    stroke-linejoin: round
+  }
+  
+  @keyframes draw {
+    to {
+        stroke-dashoffset: 0
+    }
+  }
+  
+  .articleAdded{
+    font-size: larger;
+    font-style: oblique;
+    color: #7ac142;
+    margin-left: 460px;
+    margin-top: 120px;
+  }
+  
+  .circle {
+    width: 250px;
+    height: 250px;
+    border: 2px solid #7ac142;
+    border-radius: 50%;
+    margin-left: 400px;
+    margin-top: -220px;
+  }

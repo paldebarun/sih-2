@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <div class="al">
+                    <img src="images/dnk2.png" width="60" height="60" class="d-inline-block align-text-top"
+                        style="margin-left: 40px;">
+                    <h3 style="color: #FF0056;">dg-Niryat</h3>
+                </div>
+            </a>
+            <!-- <div class="items">
+                <ul class="horizontal-list">
+                    <li class="navlink">Home</li>
+                    <li class="navlink">About</li>
+                    <li class="navlink">Query</li>
+
+                </ul>
+            </div> -->
+
+            <div class="person">
+                <h5 style="margin-right: 20px; margin-top: 7px;">Person</h5>
+                <img src="images/casual-life-3d-profile-picture-of-person-in-glasses-and-orange-shirt.png" width="30"
+                    height="30" style="margin-top: 4px;">
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="container2">
+        <div class="options">
+            <h2
+                style="border-top-right-radius: 10px; padding-left: 60px;padding-top: 3px; padding-bottom: 3px; margin-top: 10px; background-color: #e65a88; width: 287px; color: rgb(0, 0, 0);">
+                Options</h2>
+
+            <ul class="list-group list-group-flush">
+                <li class="features"><a href="home.html">Home</a></li>
+                <li class="features"><a href="cancelledArticle.html">Cancelled Articles</a></li>
+
+                <li class="features"><a href="rejectedArticles.html">Rejected Articles</a></li>
+                <li class="features"><a href="approvedArticles.html">Approved Articles</a></li>
+
+                <li class="selected">Book Article</li>
+                <li class="features_bottom">© copyright</li>
+            </ul>
+        </div>
+        <div>
+            <h2 style="margin-top: 30px; margin-left: 40px;  color:#FF0056;">Book Article:
+            </h2>
+            <div class="bookArticleContainer" style="margin-top: 40px;">
+                <div class="bookArticleone">
+                    <input type="text" placeholder="Article Nickname"
+                        style="background-color: #9af5ed; border: 1px solid #9af5ed; border-radius: 10px; color: black; padding-left: 15px; width: 269px; height: 49px; margin-left: 40px; margin-top: 10px;" />
+                    <!-- <label for="selectField">Select an option:</label> -->
+                    <select class="selectField" name="selectedOption"
+                        style="background-color: #9af5ed; border: 1px solid #9af5ed; border-radius: 10px; color: black; padding-left: 15px; width: 269px; height: 49px; margin-left: 40px; margin-top: 10px; padding-right: 9px;">
+                        <option value="option1">Select Country</option>
+                        <option value="option1">USA</option>
+                        <option value="option2">England</option>
+                        <option value="option3">Russia</option>
+                        <option value="option4">France</option>
+                        <option value="option4">japan</option>
+                    </select>
+
+                    <select class="selectField" name="selectedOption"
+                        style="background-color: #9af5ed; border: 1px solid #9af5ed; border-radius: 10px; color: black; padding-left: 15px; width: 269px; height: 49px; margin-left: 40px; margin-top: 10px; padding-right: 9px;">
+                        <option value="option1">Select Product</option>
+                        <option value="option1">EMS Merchandise</option>
+                        <option value="option2">EMS Document</option>
+                        <option value="option3">Regd. Small Packet</option>
+                        <option value="option4">Air Parcel</option>
+                        <option value="option4">Regd.letter</option>
+                        <option value="option4">Tracked Packets</option>
+                    </select>
+
+                    <select class="selectField" name="selectedOption"
+                        style="background-color: #9af5ed; border: 1px solid #9af5ed; border-radius: 10px; color: black; padding-left: 15px; width: 269px; height: 49px; margin-left: 40px; margin-top: 10px; padding-right: 9px;">
+                        <option value="option1">Select Item Category</option>
+                        <option value="option1">Commercial Sample</option>
+                        <option value="option2">Return Goods</option>
+                        <option value="option3">Sale of Goods</option>
+                        <option value="option4">Other</option>
+                    </select>
+
+                    <input type="number" placeholder="no.of types of item"
+                        style="background-color: #9af5ed; border: 1px solid #9af5ed; border-radius: 10px; color: black; padding-left: 15px; width: 269px; height: 49px; margin-left: 40px; margin-top: 10px;" />
+
+                    <input type="number" placeholder="Gross Weight(kg)"
+                        style="background-color: #9af5ed; border: 1px solid #9af5ed; border-radius: 10px; color: black; padding-left: 15px; width: 269px; height: 49px; margin-left: 40px; margin-top: 10px;" />
+
+                    <select class="selectField" name="selectedOption"
+                        style="background-color: #9af5ed; border: 1px solid #9af5ed; border-radius: 10px; color: black; padding-left: 15px; width: 269px; height: 49px; margin-left: 40px; margin-top: 10px; padding-right: 9px;">
+                        <option value="option1">If Item not Delivered</option>
+                        <option value="option1">Abandoned</option>
+                        <option value="option2">RTS-Priority</option>
+                        <option value="option3">RTS-Non Priority</option>
+
+                    </select>
+
+                    <input type="number" placeholder="No. of Lic."
+                        style="background-color: #9af5ed; border: 1px solid #9af5ed; border-radius: 10px; color: black; padding-left: 15px; width: 269px; height: 49px; margin-left: 40px; margin-top: 10px;" />
+                    <input type="number" placeholder="No. of Invoice"
+                        style="background-color: #9af5ed; border: 1px solid #9af5ed; border-radius: 10px; color: black; padding-left: 15px; width: 269px; height: 49px; margin-left: 40px; margin-top: 10px;" />
+                    <input type="number" placeholder="No. of Certificate"
+                        style="background-color: #9af5ed; border: 1px solid #9af5ed; border-radius: 10px; color: black; padding-left: 15px; width: 269px; height: 49px; margin-left: 40px; margin-top: 10px;" />
+                </div>
+                <div class="bookarticletwo">
+
+                    <select class="selectField" name="selectedOption"
+                        style="background-color: #9af5ed; border: 1px solid #9af5ed; border-radius: 10px; color: black; padding-left: 15px; width: 269px; height: 49px; margin-left: 40px; margin-top: 10px; padding-right: 9px;">
+                        <option value="option1">Select PBE</option>
+                        <option value="option1">PBE III(E-Commercial Items)</option>
+                        <option value="option2">PBE III(Non E-Commercial Items)</option>
+                    </select>
+
+                    <input type="text" placeholder="Receiver's Name"
+                    style="background-color: #9af5ed; border: 1px solid #9af5ed; border-radius: 10px; color: black; padding-left: 15px; width: 269px; height: 49px; margin-left: 40px; margin-top: 10px;" />
+
+                    <input type="text" placeholder="Company/House No."
+                    style="background-color: #9af5ed; border: 1px solid #9af5ed; border-radius: 10px; color: black; padding-left: 15px; width: 269px; height: 49px; margin-left: 40px; margin-top: 10px;" />
+
+                    <input type="text" placeholder="Address Line 1"
+                    style="background-color: #9af5ed; border: 1px solid #9af5ed; border-radius: 10px; color: black; padding-left: 15px; width: 269px; height: 49px; margin-left: 40px; margin-top: 10px;" />
+
+                    <input type="text" placeholder="Address Line 2"
+                    style="background-color: #9af5ed; border: 1px solid #9af5ed; border-radius: 10px; color: black; padding-left: 15px; width: 269px; height: 49px; margin-left: 40px; margin-top: 10px;" />
+
+                    <input type="text" placeholder="City"
+                    style="background-color: #9af5ed; border: 1px solid #9af5ed; border-radius: 10px; color: black; padding-left: 15px; width: 269px; height: 49px; margin-left: 40px; margin-top: 10px;" />
+
+                    <input type="text" placeholder="Country"
+                    style="background-color: #9af5ed; border: 1px solid #9af5ed; border-radius: 10px; color: black; padding-left: 15px; width: 269px; height: 49px; margin-left: 40px; margin-top: 10px;" />
+
+                    <input type="number" placeholder="Phone No."
+                    style="background-color: #9af5ed; border: 1px solid #9af5ed; border-radius: 10px; color: black; padding-left: 15px; width: 269px; height: 49px; margin-left: 40px; margin-top: 10px;" />
+
+                    <input type="email" placeholder="Email"
+                    style="background-color: #9af5ed; border: 1px solid #9af5ed; border-radius: 10px; color: black; padding-left: 15px; width: 269px; height: 49px; margin-left: 40px; margin-top: 10px;" />
+
+                </div>
+
+            </div>
+            
+            
+        </div>
+
+        <div class="proceedbutton" >
+            <a href="check.html" style="text-decoration: none; color: white;"><p class="proceed" >Proceed</p></a>
+        </div>
+
+        <div>
+            <img src="images/Group 1.png"  style="margin-top: 700px; margin-left: 30px;">
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

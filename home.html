@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="home.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <title>Document</title>
+  <script src="home.js"></script>
+</head>
+
+<body>
+
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <div class="al">
+          <img src="images/dnk2.png" width="60" height="60" class="d-inline-block align-text-top"
+            style="margin-left: 40px;">
+          <h3 style="color: #FF0056;">dg-Niryat</h3>
+        </div>
+      </a>
+      <div class="items">
+        <!-- <ul class="horizontal-list"> -->
+          <!-- <li class="navlink">Home</li> -->
+          <!-- <li class="navlink">About</li>
+          <li class="navlink">Query</li>
+
+        </ul> -->
+      <!-- </div> -->
+
+      <div class="person">
+        <h5 style="margin-right: 20px; margin-top: 7px;">Person</h5>
+        <img src="images/casual-life-3d-profile-picture-of-person-in-glasses-and-orange-shirt.png" width="30"
+          height="30" style="margin-top: 4px;">
+      </div>
+
+    </div>
+  </nav>
+
+  <div class="container2">
+    <div class="options">
+      <h2
+        style="border-top-right-radius: 10px; padding-left: 60px;padding-top: 3px; padding-bottom: 3px; margin-top: 10px; background-color: #e65a88; width: 287px; color: rgb(0, 0, 0);">
+        Options</h2>
+
+      <ul class="list-group list-group-flush">
+        <li class="selected">Home</li>
+        <li class="features"><a href="cancelledArticle.html">Cancelled Articles</a></li>
+        <li class="features"><a href="rejectedArticles.html">Rejected Articles</a></li>
+        <li class="features"><a href="approvedArticles.html">Approved Articles</a></li>
+        <li class="features"><a href="bookArticle.html">Book Article</a></li>
+        <li class="features_bottom">© copyright</li>
+      </ul>
+    </div>
+
+    <!-- <div>
+  <h1 style="float: bottom;">hooo</h1>
+</div> -->
+
+    <!-- <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner" style="background-color: #FF0056;">
+    <div class="carousel-item active">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div> -->
+    <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true" style="padding: 20px;">
+      <div class="carousel-inner">
+        <div class="carousel-item active" style=" height: 400px; margin-right: 20px;">
+          <img src="images/mygov_168845634251307401.png" class="d-block w-100">
+        </div>
+
+
+        <div class="carousel-item">
+          <img src="images/G20_banner_0.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+
+      </div>
+
+      <div class="consingmentNumbr">
+        <h1>Enter consingment Number</h1>
+        <div class="inputnumber">
+          <input type="text" placeholder="Enter the number"
+            style="background-color: #e65a88; border: 1px solid #e65a88; border-radius: 10px; color: white; padding-left: 15px; width: 269px; height: 49px; margin-left: 90px;" />
+          <img src="images/icons8-search-500.png" onclick="handleThing()" id="searchButton" class="search"
+            style="width: 45px; height: 45px; padding: 5px;">
+        </div>
+        <img src="images/Group 1.png" style="width: 274px; height: 93px; margin-top: 55px; margin-left: 498px;" />
+      </div>
+      <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button> -->
+    </div>
+
+    <div id="restOverThing" class="hidden">
+      <h2 style="margin: 20px 410px 30px;">Consingment Details</h2>
+      <div class="consDetail">
+        <p class="nickname">Nick Name</p>
+        <p class="detailItem">Shubham</p>
+        <p class="nickname">Country</p>
+        <p class="detailItem">INDIA</p>
+        <p class="nickname">Product</p>
+        <p class="detailItem">Product</p>
+        <p class="nickname">Catagory</p>
+        <p class="detailItem">Category</p>
+        <p class="nickname">Gross Weight</p>
+        <p class="detailItem">98kg</p>
+        <p class="nickname">PBE</p>
+        <p class="detailItem">PBE</p>
+
+        <!-- <button class="acceptButton" id="acceptButton" onclick="toggleBack()">Accept</button> -->
+        <div class="acdcbut">
+          <h4 class="acceptButton" id="acceptButton" onclick="toggleBack()">Accept</h4>
+          <h4 class="acceptButtons" id="acceptButtons" onclick="toggleBack()">Reject</h4>
+        </div>
+        <div class="cancbut">
+          <h4 class="acceptButtonc" id="acceptButton" onclick="toggleBack()">Cancel</h4>
+          
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+</body>
+
+</html>
